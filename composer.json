@@ -1,0 +1,27 @@
+{
+  "name": "josh-taylor/simple-sitemap-generator",
+  "description": "A simple sitemap generator for Laravel.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josh Taylor",
+      "email": "joshotaylor@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoshTaylor\\SimpleSitemapGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php"
+    ]
+  }
+}
